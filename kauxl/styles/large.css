@@ -1,0 +1,239 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&family=Raleway+Dots&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&family=Raleway+Dots&family=Special+Elite&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&family=Raleway+Dots&family=Special+Elite&family=Zeyada&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mate+SC&family=Nanum+Myeongjo&family=Raleway+Dots&family=Special+Elite&family=Zeyada&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Slackside+One&display=swap');
+
+
+.phone-html{
+    display: none;
+}
+
+
+body{
+    background-color:#dcd4cc;
+
+}
+
+h1{
+    font-family: 'Zeyada', cursive;
+    font-size: 150px;
+}
+
+h2{
+    font-family: 'Mate SC', serif;
+    font-size: 55px;
+}
+
+h3{
+    font-family: 'Mate SC', serif;
+    font-size: 25px;
+}
+
+h5{
+    font-family: 'Mate SC', serif;
+    font-size: 15px;
+}
+
+p{
+    font-family: 'Special Elite', cursive;
+    font-size: 25px;
+}
+
+a {
+    color: #000000; 
+    text-decoration: none; 
+  }
+li{
+    font-family: 'Mate SC', serif;
+    font-size: 35px;
+}
+
+hr{
+    margin-top: 5px; 
+    margin-bottom: 5px; 
+}
+
+img{
+    border-radius: 90px 0px ;
+    transition: border-radius 0.5s ease; /* Define the transition duration and timing function */
+}
+
+img:hover {
+    border-radius: 5px 10px 400px 10px; /* Set the new border radius on hover */
+  }
+
+
+i{
+    font-size: 150px;
+    
+}
+.fa-instagram{
+   margin-left: 150px;
+   margin-top: 400px;
+}
+
+.fa-telegram{
+    margin-left: 142px;
+    margin-top: 700px;
+}
+
+.icons{
+    display: flex;
+    flex-direction: column;
+}
+
+.fa-telegram:hover{
+    color: #0088cc;
+}
+
+.fa-instagram:hover{
+    color: #fd1d1d;
+}
+
+.title-box{
+    margin-left: 40px;
+    
+}
+
+.month-notes{
+    
+    margin-left: 50px;
+    margin-top: 200px;
+    
+}
+
+.box-song{
+    margin-left: 37px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 2fr 3fr; /* Two equal-width columns */
+    grid-gap: 20px; /* Gap between columns */
+  }
+
+
+  .grid-item {
+    grid-column: auto; /* Each item will span across one column */
+  }
+
+
+  .scrolling-section {
+    overflow: hidden;
+    width: 100%;
+  }
+  
+  .word-container {
+    display: inline-block;
+    white-space: nowrap;
+    animation: scrolling 10s linear infinite;
+  }
+  
+  @keyframes scrolling {
+    0% {
+      transform: translateX(170%);
+    }
+    100% {
+      transform: translateX(-200%);
+    }
+  }
+  
+  .word {
+    padding-right: 20px;
+    font-size: 50px;
+    font-family: 'Slackside One', cursive;
+  }
+  
+
+
+
+
+
+
+
+.first-row{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /* Three equal-width columns */
+    grid-gap: 20px; /* Gap between columns */
+    height: 900px;
+    margin-right: 50px;
+}
+
+.grid-item {
+    grid-column: auto; /* Each item will span across one column */
+    margin-top: 50px;
+    height: 300px;
+  }
+
+
+.second-row{
+    display: grid;
+    grid-template-columns: 1fr 2fr; /* One small column and one big column */
+    grid-gap: 20px; /* Gap between columns */
+    height: 700px;
+    margin-right: 50px;
+}
+
+.grid-item-small {
+    grid-column: 1; /* Each item will span across one column */
+    border: 1px black solid;
+    margin-top: 50px;
+    height: 300px;
+  }
+
+.grid-item-big {
+    grid-column: 2; /* Each item will span across one column */
+    border: 1px black solid;
+    margin-top: 50px;
+    height: 500px;
+  }
+
+.third-row{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /* Three equal-width columns */
+    grid-gap: 20px; /* Gap between columns */
+    height: 700px;
+    border: 1px red solid;
+    margin-right: 50px;
+}
+
+
+
+
+
+/* NOTE PAGES */ 
+
+.left_picture{
+    width: 750px;
+    height: 900px;
+}
+
+.kauxl-title{
+    position: absolute;
+    top: -13%;
+    left: 38%;
+}
+
+.first-row1{
+    display: grid;
+    margin-top: 150px;
+   
+}
+
+.second_picture{
+    width: 400px;
+    height: 500px;
+    margin: 100px;
+    border-radius: 90px 0px ;
+    transition: border-radius 0.3s ease; /* Define the transition duration and timing function */
+}
+
+.second_picture:hover {
+    border-radius: 400px 0px 200px 0px; /* Set the new border radius on hover */
+  }
+
+.phone_mobile_display_note{
+  display: none;
+}

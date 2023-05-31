@@ -1,0 +1,125 @@
+@media(max-width: 800px) {
+
+    .phone-html{
+        display:contents;
+    }
+    
+    .grid-container{
+        display: none;
+    }
+
+    .title-box-phone{
+        text-align: center;
+        margin-top: -90px;
+    }
+
+    .scrolling-section{
+        margin-top: -170px;
+    }
+    
+    .box-song{
+        margin: 0 auto;
+        text-align: center;
+    }
+    
+    .first-row-phone{
+        display: grid;
+        grid-template-columns: 1fr 1fr; /* Two columns with equal width */
+        grid-gap: 10px; /* Gap between columns */
+    }
+    
+    .grid-item-phone {
+        padding: 10px;
+        text-align: center;
+      }
+
+    p{
+        font-size:15px;
+
+    }
+
+    .second-row-phone{
+        text-align: center;
+    }
+
+
+    i{
+        font-size: 70px;
+    }
+
+    .fa-instagram{
+       margin-left: 0px;
+       margin-top: 0px !important;
+
+    }
+    
+    .fa-telegram{
+        margin-left: 0px;
+        margin-top: 0px !important;
+    }
+    
+    .icons-phone{
+        display: flex; /* Activa el flexbox */
+        justify-content: flex-end;
+        margin-right: 20px;
+    }
+       
+
+    .fa-telegram:hover{
+        color: #0088cc;
+    }
+    
+    .fa-instagram:hover{
+        color: 
+        #fd1d1d;
+    }
+
+    .month-notes-phone{
+        margin-top: -50px;
+        margin-left: 80px;
+    }
+
+    img{
+        width: 80%;
+        height: 60%;
+    }
+
+    .scrolling-section{
+        padding-top: - 100px;
+    }
+
+    .space_square{
+        padding-top: 280px;
+    }
+    
+    /*NOTAS PARA TELEFONO*/
+
+    .note_body{
+        display:none;
+    }
+
+    .phone_mobile_display_note{
+        display: contents;
+    }
+
+
+    .not_title{
+        text-align: center;
+    }
+
+    .image_phone_code{
+        text-align: center;
+        justify-content: center;
+    }
+
+    .image_phone_code img{
+        width: 80%;
+
+    }
+
+    .phone_mobile_display_note p{
+        font-size: 30px;
+        padding: 15px;
+    }
+
+}

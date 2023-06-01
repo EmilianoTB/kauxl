@@ -136,7 +136,7 @@ i{
       transform: translateX(170%);
     }
     100% {
-      transform: translateX(-200%);
+      transform: translateX(-150%);
     }
   }
   
